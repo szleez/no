@@ -5,6 +5,7 @@ html,
 body {
   font-family: 'comfortaa', sans-serif;
   text-align: center;
+  text-color
 }
 
 * {
@@ -18,7 +19,7 @@ body {
   position: fixed;
   text-align: right;
   width: 100%;
-  background-color: #Fff;
+  background-color: darkgray;
   font-family: "comfortaa",sans-serif; 
   font-size: 1.2em; 
 }
@@ -29,50 +30,21 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000;
+  color: white;
   text-decoration: none;  
 }
 nav ul li a:hover {
-  color: #ababab;
+  color: black;
 }
 
 /* one */
 
 #one {
-  top: 20;
   line-height: 1.6;
-  background: #F5F5F5;
-  min-height: 55vh;
-  padding-top: 45vh;
-  text-align: 
-}
-  
-/* two */
-
-.twoo {
-  padding-top: 60px;
-  margin-top: -60px;
-  padding-bottom: 60px;
-  background-color: #dcdcdc;
-}
-
-.twoo .twoo-header {
-  margin-top: 50px;
-  color: #111;
-  font-weight: normal;
-}
-
-/* three */
-
-.threee {
-  background-color: #ababab;
-  padding: 60px ;
-  line-height: 1.6;
-}
-
-.threee-details {
-  padding: 60px;
-  display: inline-block;
+  background-color: black;
+  min-height: 125vh;
+  padding-top: 25vh;
+  text-align: center;
 }
 
 /* mobile section */
