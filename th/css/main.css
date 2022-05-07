@@ -44,7 +44,7 @@ nav ul li a:hover {
   display: inline-block;
   inline-size 150px;
   overflow-wrap: break-word;
-  max-width: 100%;
+  max-width: 45%;
 }
 
 /* mobile section */
@@ -60,6 +60,7 @@ nav ul li a:hover {
   .myDiv {
   display: block; /* Stops it from floating */
   margin: auto; /* Ensures that it is centered */
-  margin-bottom: 15px; /* Space between the stacked elements */  
+  margin-bottom: 15px; /* Space between the stacked elements */
+  max-width: 100%;  
   }
 }
