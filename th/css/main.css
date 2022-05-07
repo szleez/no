@@ -48,6 +48,30 @@ nav ul li a:hover {
   white-space: nowrap;
 }
 
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one1 {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:140px;
+  border-right:2px solid #000;
+}
+#two2 { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+
 /* mobile section */
 
 @media screen and (max-width: 400px) {
@@ -60,4 +84,11 @@ nav ul li a:hover {
   .project {
     margin: 40px 0;
   }
+  #one1 { 
+      float: none;
+      margin-right:0;
+      width:auto;
+      border:0;
+      border-bottom:2px solid #000;    
+    } 
 }
