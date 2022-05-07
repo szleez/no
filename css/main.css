@@ -6,6 +6,7 @@ body {
   font-family: 'comfortaa', sans-serif;
   text-align: center;
   background-color: black;
+  font-size: 16px;
 }
 
 * {
@@ -42,7 +43,7 @@ nav ul li a:hover {
 #one {
   line-height: 1.6;
   min-height: 50vh;
-  padding-top: 15vh;
+  padding-top: 9vh;
   text-align: center;
 }
 
@@ -57,5 +58,9 @@ nav ul li a:hover {
   }
   .project {
     margin: 40px 0;
+  }
+
+  #one {
+    font-size: 8px;
   }
 }
