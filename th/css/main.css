@@ -50,7 +50,7 @@ nav ul li a:hover {
 
 /* mobile section */
 
-@media screen and (max-width: 1581px) {
+@media screen and (max-width: 400px) {
   nav ul {
     text-align: center;
   }
