@@ -42,8 +42,9 @@ nav ul li a:hover {
 #one {
   line-height: 1.6;
   background-color: black;
-  min-height: 125vh;
-  padding-top: 25vh;
+  min-height: 50vh;
+  padding-top: 15vh;
+  padding-bottom: 50vh;
   text-align: center;
 }
 
