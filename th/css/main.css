@@ -5,6 +5,9 @@ html,
 body {
   font-family: 'comfortaa', sans-serif;
   text-align: center;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
 }
 
 * {
@@ -36,59 +39,27 @@ nav ul li a:hover {
   color: black;
 }
 
-/* one */
-
-#one {
-  line-height: 1.6;
-  background-color: black;
-  min-height: 50vh;
+.myDiv {
   padding-top: 15vh;
-  padding-bottom: 11.7vh;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.wrapper { 
-  border : 2px solid #000; 
-  overflow:hidden;
-}
-
-.wrapper div {
-   min-height: 200px;
-   padding: 10px;
-}
-#one1 {
-  background-color: gray;
-  float:left; 
-  margin-right:20px;
-  width:140px;
-  border-right:2px solid #000;
-}
-#two2 { 
-  background-color: white;
-  overflow:hidden;
-  margin:10px;
-  border:2px dashed #ccc;
-  min-height:170px;
+  display: inline-block;
+  inline-size 150px;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 /* mobile section */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   nav ul {
     text-align: center;
   }
   nav ul li {
     margin: 20px;
   }
-  .project {
-    margin: 40px 0;
+
+  .myDiv {
+  display: block; /* Stops it from floating */
+  margin: auto; /* Ensures that it is centered */
+  margin-bottom: 15px; /* Space between the stacked elements */  
   }
-  #one1 { 
-      float: none;
-      margin-right:0;
-      width:auto;
-      border:0;
-      border-bottom:2px solid #000;    
-    } 
 }
