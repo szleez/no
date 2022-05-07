@@ -44,8 +44,9 @@ nav ul li a:hover {
   background-color: black;
   min-height: 50vh;
   padding-top: 15vh;
-  padding-bottom: 7.6vh;
+  padding-bottom: 11.7vh;
   text-align: center;
+  white-space: nowrap;
 }
 
 /* mobile section */
